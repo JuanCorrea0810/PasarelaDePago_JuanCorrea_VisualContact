@@ -1,6 +1,3 @@
-using System.Net.Http.Headers;
-using System.Net.Http;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

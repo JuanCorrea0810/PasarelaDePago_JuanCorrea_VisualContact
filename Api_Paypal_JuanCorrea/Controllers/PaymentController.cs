@@ -1,20 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-
+﻿
 using System.Net.Http.Headers;
 using System.Text;
 using Api_Paypal_JuanCorrea.Models.Paypal_Order;
 using Api_Paypal_JuanCorrea.Models.Paypal_Transaction;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using Microsoft.Extensions.ObjectPool;
-using System.Collections.Specialized;
 using Api_Paypal_JuanCorrea.Models;
-using System.Net;
-using System.Net.Http;
 using Newtonsoft.Json.Linq;
 
 namespace Api_Paypal_JuanCorrea.Controllers
@@ -103,9 +94,9 @@ namespace Api_Paypal_JuanCorrea.Controllers
                                 brand_name = "Mi Tienda",
                                 landing_page = "NO_PREFERENCE",
                                 locale = "en-US",
-                                user_action = "PAY_NOW", //Accion para que paypal muestre el monto de pago
-                                return_url = "http://127.0.0.1:5500/Projects/javascript-basic-projects/22-products/final/transaccion.html",// cuando se aprovo la solicitud del cobro
-                                cancel_url = "http://127.0.0.1:5500/Projects/javascript-basic-projects/22-products/final/transaccion.html"// cuando cancela la operacion
+                                user_action = "PAY_NOW", //Acción para que paypal muestre el monto de pago
+                                return_url = "http://127.0.0.1:5500/Ejejmplo_Frontend/transaccion.html",// cuando se aprobó la solicitud del cobro
+                                cancel_url = "http://127.0.0.1:5500/Ejejmplo_Frontend/transaccion.html"// cuando cancela la operacion
                             }
                         }
                     }

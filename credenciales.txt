@@ -1,0 +1,15 @@
+// Credenciales para conectarnos con la API de Paypal
+
+Client ID ---> AePKtIMdkax086onN9ZiRc5QIbQ4SEHRh8XPL7xcoBfQ-2OGfD317KZMbRvKC6kLBMrgVDh_FYU5Xd9_
+
+Secret ---> EN6uWCEUgZ2kj-9htpidWS5R6GvhO360Cc9oe30hQYRxJDuOw2RTrsu95YpMokwI1andf6KVb_7BBn4L
+
+
+
+// Cuentas para hacer pruebas
+
+Cuenta que va a recibir el pago ----> sb-p47bts28509333@business.example.com
+Contraseña ---> 5Jq84#ph
+
+Cuenta que va a hacer el pago ----> sb-1modw28509328@personal.example.com
+Contraseña ---> CI4vZM!4
